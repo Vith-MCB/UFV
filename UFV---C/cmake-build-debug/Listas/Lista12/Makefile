@@ -64,16 +64,6 @@ CMAKE_BINARY_DIR = C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -84,16 +74,26 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+.PHONY : edit_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\\CMakeFiles\progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\Listas\Lista12\\CMakeFiles\progress.marks
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Listas/Lista12/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 clean
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Listas/Lista12/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,31 +102,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Listas/Lista12/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Listas/Lista12/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named exer02
+# Convenience name for target.
+Listas/Lista12/CMakeFiles/exer02.dir/rule:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Listas/Lista12/CMakeFiles/exer02.dir/rule
+.PHONY : Listas/Lista12/CMakeFiles/exer02.dir/rule
 
-# Build rule for target.
-exer02: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 exer02
+# Convenience name for target.
+exer02: Listas/Lista12/CMakeFiles/exer02.dir/rule
 .PHONY : exer02
 
 # fast build rule for target.
 exer02/fast:
-	$(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer02.dir\build.make Listas/Lista12/CMakeFiles/exer02.dir/build
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer02.dir\build.make Listas/Lista12/CMakeFiles/exer02.dir/build
 .PHONY : exer02/fast
+
+exer02.obj: exer02.c.obj
+.PHONY : exer02.obj
+
+# target to build an object file
+exer02.c.obj:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer02.dir\build.make Listas/Lista12/CMakeFiles/exer02.dir/exer02.c.obj
+.PHONY : exer02.c.obj
+
+exer02.i: exer02.c.i
+.PHONY : exer02.i
+
+# target to preprocess a source file
+exer02.c.i:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer02.dir\build.make Listas/Lista12/CMakeFiles/exer02.dir/exer02.c.i
+.PHONY : exer02.c.i
+
+exer02.s: exer02.c.s
+.PHONY : exer02.s
+
+# target to generate assembly for a file
+exer02.c.s:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer02.dir\build.make Listas/Lista12/CMakeFiles/exer02.dir/exer02.c.s
+.PHONY : exer02.c.s
 
 # Help Target
 help:
@@ -137,6 +162,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... exer02
+	@echo ... exer02.obj
+	@echo ... exer02.i
+	@echo ... exer02.s
 .PHONY : help
 
 
@@ -148,6 +176,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
