@@ -171,6 +171,20 @@ exer08/fast:
 	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer08.dir\build.make Listas/Lista12/CMakeFiles/exer08.dir/build
 .PHONY : exer08/fast
 
+# Convenience name for target.
+Listas/Lista12/CMakeFiles/exer10.dir/rule:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Listas/Lista12/CMakeFiles/exer10.dir/rule
+.PHONY : Listas/Lista12/CMakeFiles/exer10.dir/rule
+
+# Convenience name for target.
+exer10: Listas/Lista12/CMakeFiles/exer10.dir/rule
+.PHONY : exer10
+
+# fast build rule for target.
+exer10/fast:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer10.dir\build.make Listas/Lista12/CMakeFiles/exer10.dir/build
+.PHONY : exer10/fast
+
 exer02.obj: exer02.c.obj
 .PHONY : exer02.obj
 
@@ -267,6 +281,30 @@ exer08.c.s:
 	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer08.dir\build.make Listas/Lista12/CMakeFiles/exer08.dir/exer08.c.s
 .PHONY : exer08.c.s
 
+exer10.obj: exer10.c.obj
+.PHONY : exer10.obj
+
+# target to build an object file
+exer10.c.obj:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer10.dir\build.make Listas/Lista12/CMakeFiles/exer10.dir/exer10.c.obj
+.PHONY : exer10.c.obj
+
+exer10.i: exer10.c.i
+.PHONY : exer10.i
+
+# target to preprocess a source file
+exer10.c.i:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer10.dir\build.make Listas/Lista12/CMakeFiles/exer10.dir/exer10.c.i
+.PHONY : exer10.c.i
+
+exer10.s: exer10.c.s
+.PHONY : exer10.s
+
+# target to generate assembly for a file
+exer10.c.s:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer10.dir\build.make Listas/Lista12/CMakeFiles/exer10.dir/exer10.c.s
+.PHONY : exer10.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -279,6 +317,7 @@ help:
 	@echo ... exer04
 	@echo ... exer06
 	@echo ... exer08
+	@echo ... exer10
 	@echo ... exer02.obj
 	@echo ... exer02.i
 	@echo ... exer02.s
@@ -291,6 +330,9 @@ help:
 	@echo ... exer08.obj
 	@echo ... exer08.i
 	@echo ... exer08.s
+	@echo ... exer10.obj
+	@echo ... exer10.i
+	@echo ... exer10.s
 .PHONY : help
 
 
