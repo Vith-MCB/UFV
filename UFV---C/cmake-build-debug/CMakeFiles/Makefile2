@@ -78,6 +78,7 @@ clean: Listas/Lista12/clean
 
 # Recursive "all" directory target.
 Listas/Lista12/all: Listas/Lista12/CMakeFiles/exer02.dir/all
+Listas/Lista12/all: Listas/Lista12/CMakeFiles/exer04.dir/all
 .PHONY : Listas/Lista12/all
 
 # Recursive "preinstall" directory target.
@@ -86,6 +87,7 @@ Listas/Lista12/preinstall:
 
 # Recursive "clean" directory target.
 Listas/Lista12/clean: Listas/Lista12/CMakeFiles/exer02.dir/clean
+Listas/Lista12/clean: Listas/Lista12/CMakeFiles/exer04.dir/clean
 .PHONY : Listas/Lista12/clean
 
 #=============================================================================
@@ -113,6 +115,32 @@ exer02: Listas/Lista12/CMakeFiles/exer02.dir/rule
 Listas/Lista12/CMakeFiles/exer02.dir/clean:
 	$(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer02.dir\build.make Listas/Lista12/CMakeFiles/exer02.dir/clean
 .PHONY : Listas/Lista12/CMakeFiles/exer02.dir/clean
+
+#=============================================================================
+# Target rules for target Listas/Lista12/CMakeFiles/exer04.dir
+
+# All Build rule for target.
+Listas/Lista12/CMakeFiles/exer04.dir/all:
+	$(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer04.dir\build.make Listas/Lista12/CMakeFiles/exer04.dir/depend
+	$(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer04.dir\build.make Listas/Lista12/CMakeFiles/exer04.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target exer04"
+.PHONY : Listas/Lista12/CMakeFiles/exer04.dir/all
+
+# Build rule for subdir invocation for target.
+Listas/Lista12/CMakeFiles/exer04.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Listas/Lista12/CMakeFiles/exer04.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles 0
+.PHONY : Listas/Lista12/CMakeFiles/exer04.dir/rule
+
+# Convenience name for target.
+exer04: Listas/Lista12/CMakeFiles/exer04.dir/rule
+.PHONY : exer04
+
+# clean rule for target.
+Listas/Lista12/CMakeFiles/exer04.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer04.dir\build.make Listas/Lista12/CMakeFiles/exer04.dir/clean
+.PHONY : Listas/Lista12/CMakeFiles/exer04.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

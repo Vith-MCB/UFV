@@ -128,6 +128,19 @@ exer02/fast:
 	$(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer02.dir\build.make Listas/Lista12/CMakeFiles/exer02.dir/build
 .PHONY : exer02/fast
 
+#=============================================================================
+# Target rules for targets named exer04
+
+# Build rule for target.
+exer04: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 exer04
+.PHONY : exer04
+
+# fast build rule for target.
+exer04/fast:
+	$(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer04.dir\build.make Listas/Lista12/CMakeFiles/exer04.dir/build
+.PHONY : exer04/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -137,6 +150,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... exer02
+	@echo ... exer04
 .PHONY : help
 
 

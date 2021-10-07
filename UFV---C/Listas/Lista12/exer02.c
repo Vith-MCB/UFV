@@ -2,7 +2,9 @@
 #include <stdlib.h>
 
 int main() {
-    printf("Hello World!\n");
-    system("PAUSE");
+    double valf, valCons;
+    scanf("%lf", &valf);
+    valCons = valf * 1.73;
+    printf("Valor do cons: %lf\n", valCons);
     return 0;
 }
