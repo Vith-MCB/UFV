@@ -65,27 +65,27 @@ include Listas/Lista12/CMakeFiles/exer08.dir/progress.make
 # Include the compile flags for this target's objects.
 include Listas/Lista12/CMakeFiles/exer08.dir/flags.make
 
-Listas/Lista12/CMakeFiles/exer08.dir/exer06.c.obj: Listas/Lista12/CMakeFiles/exer08.dir/flags.make
-Listas/Lista12/CMakeFiles/exer08.dir/exer06.c.obj: ../Listas/Lista12/exer06.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object Listas/Lista12/CMakeFiles/exer08.dir/exer06.c.obj"
-	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\Listas\Lista12 && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\exer08.dir\exer06.c.obj -c C:\Users\vitao\Documents\GitHub\UFV\UFV---C\Listas\Lista12\exer06.c
+Listas/Lista12/CMakeFiles/exer08.dir/exer08.c.obj: Listas/Lista12/CMakeFiles/exer08.dir/flags.make
+Listas/Lista12/CMakeFiles/exer08.dir/exer08.c.obj: ../Listas/Lista12/exer08.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object Listas/Lista12/CMakeFiles/exer08.dir/exer08.c.obj"
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\Listas\Lista12 && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\exer08.dir\exer08.c.obj -c C:\Users\vitao\Documents\GitHub\UFV\UFV---C\Listas\Lista12\exer08.c
 
-Listas/Lista12/CMakeFiles/exer08.dir/exer06.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/exer08.dir/exer06.c.i"
-	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\Listas\Lista12 && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\vitao\Documents\GitHub\UFV\UFV---C\Listas\Lista12\exer06.c > CMakeFiles\exer08.dir\exer06.c.i
+Listas/Lista12/CMakeFiles/exer08.dir/exer08.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/exer08.dir/exer08.c.i"
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\Listas\Lista12 && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\vitao\Documents\GitHub\UFV\UFV---C\Listas\Lista12\exer08.c > CMakeFiles\exer08.dir\exer08.c.i
 
-Listas/Lista12/CMakeFiles/exer08.dir/exer06.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/exer08.dir/exer06.c.s"
-	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\Listas\Lista12 && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\vitao\Documents\GitHub\UFV\UFV---C\Listas\Lista12\exer06.c -o CMakeFiles\exer08.dir\exer06.c.s
+Listas/Lista12/CMakeFiles/exer08.dir/exer08.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/exer08.dir/exer08.c.s"
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\Listas\Lista12 && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\vitao\Documents\GitHub\UFV\UFV---C\Listas\Lista12\exer08.c -o CMakeFiles\exer08.dir\exer08.c.s
 
 # Object files for target exer08
 exer08_OBJECTS = \
-"CMakeFiles/exer08.dir/exer06.c.obj"
+"CMakeFiles/exer08.dir/exer08.c.obj"
 
 # External object files for target exer08
 exer08_EXTERNAL_OBJECTS =
 
-Listas/Lista12/exer08.exe: Listas/Lista12/CMakeFiles/exer08.dir/exer06.c.obj
+Listas/Lista12/exer08.exe: Listas/Lista12/CMakeFiles/exer08.dir/exer08.c.obj
 Listas/Lista12/exer08.exe: Listas/Lista12/CMakeFiles/exer08.dir/build.make
 Listas/Lista12/exer08.exe: Listas/Lista12/CMakeFiles/exer08.dir/linklibs.rsp
 Listas/Lista12/exer08.exe: Listas/Lista12/CMakeFiles/exer08.dir/objects1.rsp

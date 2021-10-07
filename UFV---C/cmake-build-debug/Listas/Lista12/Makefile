@@ -225,7 +225,6 @@ exer06.obj: exer06.c.obj
 # target to build an object file
 exer06.c.obj:
 	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer06.dir\build.make Listas/Lista12/CMakeFiles/exer06.dir/exer06.c.obj
-	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer08.dir\build.make Listas/Lista12/CMakeFiles/exer08.dir/exer06.c.obj
 .PHONY : exer06.c.obj
 
 exer06.i: exer06.c.i
@@ -234,7 +233,6 @@ exer06.i: exer06.c.i
 # target to preprocess a source file
 exer06.c.i:
 	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer06.dir\build.make Listas/Lista12/CMakeFiles/exer06.dir/exer06.c.i
-	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer08.dir\build.make Listas/Lista12/CMakeFiles/exer08.dir/exer06.c.i
 .PHONY : exer06.c.i
 
 exer06.s: exer06.c.s
@@ -243,8 +241,31 @@ exer06.s: exer06.c.s
 # target to generate assembly for a file
 exer06.c.s:
 	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer06.dir\build.make Listas/Lista12/CMakeFiles/exer06.dir/exer06.c.s
-	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer08.dir\build.make Listas/Lista12/CMakeFiles/exer08.dir/exer06.c.s
 .PHONY : exer06.c.s
+
+exer08.obj: exer08.c.obj
+.PHONY : exer08.obj
+
+# target to build an object file
+exer08.c.obj:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer08.dir\build.make Listas/Lista12/CMakeFiles/exer08.dir/exer08.c.obj
+.PHONY : exer08.c.obj
+
+exer08.i: exer08.c.i
+.PHONY : exer08.i
+
+# target to preprocess a source file
+exer08.c.i:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer08.dir\build.make Listas/Lista12/CMakeFiles/exer08.dir/exer08.c.i
+.PHONY : exer08.c.i
+
+exer08.s: exer08.c.s
+.PHONY : exer08.s
+
+# target to generate assembly for a file
+exer08.c.s:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer08.dir\build.make Listas/Lista12/CMakeFiles/exer08.dir/exer08.c.s
+.PHONY : exer08.c.s
 
 # Help Target
 help:
@@ -267,6 +288,9 @@ help:
 	@echo ... exer06.obj
 	@echo ... exer06.i
 	@echo ... exer06.s
+	@echo ... exer08.obj
+	@echo ... exer08.i
+	@echo ... exer08.s
 .PHONY : help
 
 

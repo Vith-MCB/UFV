@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/vitao/Documents/GitHub/UFV/UFV---C/Listas/Lista12/exer06.c" "C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista12/CMakeFiles/exer08.dir/exer06.c.obj"
+  "C:/Users/vitao/Documents/GitHub/UFV/UFV---C/Listas/Lista12/exer08.c" "C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista12/CMakeFiles/exer08.dir/exer08.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
