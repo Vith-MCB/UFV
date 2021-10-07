@@ -143,6 +143,34 @@ exer04/fast:
 	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer04.dir\build.make Listas/Lista12/CMakeFiles/exer04.dir/build
 .PHONY : exer04/fast
 
+# Convenience name for target.
+Listas/Lista12/CMakeFiles/exer06.dir/rule:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Listas/Lista12/CMakeFiles/exer06.dir/rule
+.PHONY : Listas/Lista12/CMakeFiles/exer06.dir/rule
+
+# Convenience name for target.
+exer06: Listas/Lista12/CMakeFiles/exer06.dir/rule
+.PHONY : exer06
+
+# fast build rule for target.
+exer06/fast:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer06.dir\build.make Listas/Lista12/CMakeFiles/exer06.dir/build
+.PHONY : exer06/fast
+
+# Convenience name for target.
+Listas/Lista12/CMakeFiles/exer08.dir/rule:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Listas/Lista12/CMakeFiles/exer08.dir/rule
+.PHONY : Listas/Lista12/CMakeFiles/exer08.dir/rule
+
+# Convenience name for target.
+exer08: Listas/Lista12/CMakeFiles/exer08.dir/rule
+.PHONY : exer08
+
+# fast build rule for target.
+exer08/fast:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer08.dir\build.make Listas/Lista12/CMakeFiles/exer08.dir/build
+.PHONY : exer08/fast
+
 exer02.obj: exer02.c.obj
 .PHONY : exer02.obj
 
@@ -191,6 +219,33 @@ exer04.c.s:
 	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer04.dir\build.make Listas/Lista12/CMakeFiles/exer04.dir/exer04.c.s
 .PHONY : exer04.c.s
 
+exer06.obj: exer06.c.obj
+.PHONY : exer06.obj
+
+# target to build an object file
+exer06.c.obj:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer06.dir\build.make Listas/Lista12/CMakeFiles/exer06.dir/exer06.c.obj
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer08.dir\build.make Listas/Lista12/CMakeFiles/exer08.dir/exer06.c.obj
+.PHONY : exer06.c.obj
+
+exer06.i: exer06.c.i
+.PHONY : exer06.i
+
+# target to preprocess a source file
+exer06.c.i:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer06.dir\build.make Listas/Lista12/CMakeFiles/exer06.dir/exer06.c.i
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer08.dir\build.make Listas/Lista12/CMakeFiles/exer08.dir/exer06.c.i
+.PHONY : exer06.c.i
+
+exer06.s: exer06.c.s
+.PHONY : exer06.s
+
+# target to generate assembly for a file
+exer06.c.s:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer06.dir\build.make Listas/Lista12/CMakeFiles/exer06.dir/exer06.c.s
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer08.dir\build.make Listas/Lista12/CMakeFiles/exer08.dir/exer06.c.s
+.PHONY : exer06.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -201,12 +256,17 @@ help:
 	@echo ... rebuild_cache
 	@echo ... exer02
 	@echo ... exer04
+	@echo ... exer06
+	@echo ... exer08
 	@echo ... exer02.obj
 	@echo ... exer02.i
 	@echo ... exer02.s
 	@echo ... exer04.obj
 	@echo ... exer04.i
 	@echo ... exer04.s
+	@echo ... exer06.obj
+	@echo ... exer06.i
+	@echo ... exer06.s
 .PHONY : help
 
 

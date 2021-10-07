@@ -55,4 +55,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "Listas/Lista12/CMakeFiles/exer02.dir/DependInfo.cmake"
   "Listas/Lista12/CMakeFiles/exer04.dir/DependInfo.cmake"
+  "Listas/Lista12/CMakeFiles/exer06.dir/DependInfo.cmake"
+  "Listas/Lista12/CMakeFiles/exer08.dir/DependInfo.cmake"
   )

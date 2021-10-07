@@ -1,4 +1,16 @@
 "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" C:\Users\vitao\Documents\GitHub\UFV\UFV---C
 -- Configuring done
--- Generating done
--- Build files have been written to: C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug
+CMake Error at Listas/Lista12/CMakeLists.txt:9 (add_executable):
+  Cannot find source file:
+
+    exer08.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .h .hh .h++
+  .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .ispc
+
+
+CMake Error at Listas/Lista12/CMakeLists.txt:9 (add_executable):
+  No SOURCES given to target: exer08
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
