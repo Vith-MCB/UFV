@@ -58,4 +58,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "Listas/Lista12/CMakeFiles/exer06.dir/DependInfo.cmake"
   "Listas/Lista12/CMakeFiles/exer08.dir/DependInfo.cmake"
   "Listas/Lista12/CMakeFiles/exer10.dir/DependInfo.cmake"
+  "Listas/Lista12/CMakeFiles/exer12.dir/DependInfo.cmake"
+  "Listas/Lista12/CMakeFiles/exer14.dir/DependInfo.cmake"
   )

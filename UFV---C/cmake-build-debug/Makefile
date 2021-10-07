@@ -180,6 +180,32 @@ exer10/fast:
 	$(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer10.dir\build.make Listas/Lista12/CMakeFiles/exer10.dir/build
 .PHONY : exer10/fast
 
+#=============================================================================
+# Target rules for targets named exer12
+
+# Build rule for target.
+exer12: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 exer12
+.PHONY : exer12
+
+# fast build rule for target.
+exer12/fast:
+	$(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer12.dir\build.make Listas/Lista12/CMakeFiles/exer12.dir/build
+.PHONY : exer12/fast
+
+#=============================================================================
+# Target rules for targets named exer14
+
+# Build rule for target.
+exer14: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 exer14
+.PHONY : exer14
+
+# fast build rule for target.
+exer14/fast:
+	$(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer14.dir\build.make Listas/Lista12/CMakeFiles/exer14.dir/build
+.PHONY : exer14/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -193,6 +219,8 @@ help:
 	@echo ... exer06
 	@echo ... exer08
 	@echo ... exer10
+	@echo ... exer12
+	@echo ... exer14
 .PHONY : help
 
 

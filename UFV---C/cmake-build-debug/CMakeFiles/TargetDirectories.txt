@@ -1,9 +1,11 @@
 C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista12/CMakeFiles/rebuild_cache.dir
 C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista12/CMakeFiles/exer02.dir
 C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista12/CMakeFiles/exer04.dir
 C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista12/CMakeFiles/exer06.dir
 C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista12/CMakeFiles/exer08.dir
 C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista12/CMakeFiles/exer10.dir
+C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista12/CMakeFiles/exer12.dir
 C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista12/CMakeFiles/edit_cache.dir
+C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista12/CMakeFiles/exer14.dir
+C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista12/CMakeFiles/rebuild_cache.dir

@@ -64,16 +64,6 @@ CMAKE_BINARY_DIR = C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -83,6 +73,16 @@ edit_cache:
 # Special rule for the target edit_cache
 edit_cache/fast: edit_cache
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -184,6 +184,34 @@ exer10: Listas/Lista12/CMakeFiles/exer10.dir/rule
 exer10/fast:
 	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer10.dir\build.make Listas/Lista12/CMakeFiles/exer10.dir/build
 .PHONY : exer10/fast
+
+# Convenience name for target.
+Listas/Lista12/CMakeFiles/exer12.dir/rule:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Listas/Lista12/CMakeFiles/exer12.dir/rule
+.PHONY : Listas/Lista12/CMakeFiles/exer12.dir/rule
+
+# Convenience name for target.
+exer12: Listas/Lista12/CMakeFiles/exer12.dir/rule
+.PHONY : exer12
+
+# fast build rule for target.
+exer12/fast:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer12.dir\build.make Listas/Lista12/CMakeFiles/exer12.dir/build
+.PHONY : exer12/fast
+
+# Convenience name for target.
+Listas/Lista12/CMakeFiles/exer14.dir/rule:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Listas/Lista12/CMakeFiles/exer14.dir/rule
+.PHONY : Listas/Lista12/CMakeFiles/exer14.dir/rule
+
+# Convenience name for target.
+exer14: Listas/Lista12/CMakeFiles/exer14.dir/rule
+.PHONY : exer14
+
+# fast build rule for target.
+exer14/fast:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer14.dir\build.make Listas/Lista12/CMakeFiles/exer14.dir/build
+.PHONY : exer14/fast
 
 exer02.obj: exer02.c.obj
 .PHONY : exer02.obj
@@ -305,6 +333,54 @@ exer10.c.s:
 	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer10.dir\build.make Listas/Lista12/CMakeFiles/exer10.dir/exer10.c.s
 .PHONY : exer10.c.s
 
+exer12.obj: exer12.c.obj
+.PHONY : exer12.obj
+
+# target to build an object file
+exer12.c.obj:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer12.dir\build.make Listas/Lista12/CMakeFiles/exer12.dir/exer12.c.obj
+.PHONY : exer12.c.obj
+
+exer12.i: exer12.c.i
+.PHONY : exer12.i
+
+# target to preprocess a source file
+exer12.c.i:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer12.dir\build.make Listas/Lista12/CMakeFiles/exer12.dir/exer12.c.i
+.PHONY : exer12.c.i
+
+exer12.s: exer12.c.s
+.PHONY : exer12.s
+
+# target to generate assembly for a file
+exer12.c.s:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer12.dir\build.make Listas/Lista12/CMakeFiles/exer12.dir/exer12.c.s
+.PHONY : exer12.c.s
+
+exer14.obj: exer14.c.obj
+.PHONY : exer14.obj
+
+# target to build an object file
+exer14.c.obj:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer14.dir\build.make Listas/Lista12/CMakeFiles/exer14.dir/exer14.c.obj
+.PHONY : exer14.c.obj
+
+exer14.i: exer14.c.i
+.PHONY : exer14.i
+
+# target to preprocess a source file
+exer14.c.i:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer14.dir\build.make Listas/Lista12/CMakeFiles/exer14.dir/exer14.c.i
+.PHONY : exer14.c.i
+
+exer14.s: exer14.c.s
+.PHONY : exer14.s
+
+# target to generate assembly for a file
+exer14.c.s:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer14.dir\build.make Listas/Lista12/CMakeFiles/exer14.dir/exer14.c.s
+.PHONY : exer14.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -318,6 +394,8 @@ help:
 	@echo ... exer06
 	@echo ... exer08
 	@echo ... exer10
+	@echo ... exer12
+	@echo ... exer14
 	@echo ... exer02.obj
 	@echo ... exer02.i
 	@echo ... exer02.s
@@ -333,6 +411,12 @@ help:
 	@echo ... exer10.obj
 	@echo ... exer10.i
 	@echo ... exer10.s
+	@echo ... exer12.obj
+	@echo ... exer12.i
+	@echo ... exer12.s
+	@echo ... exer14.obj
+	@echo ... exer14.i
+	@echo ... exer14.s
 .PHONY : help
 
 
