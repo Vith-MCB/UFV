@@ -62,14 +62,17 @@ CMAKE_BINARY_DIR = C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: Listas/Lista13/all
 all: Listas/Lista12/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
+preinstall: Listas/Lista13/preinstall
 preinstall: Listas/Lista12/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: Listas/Lista13/clean
 clean: Listas/Lista12/clean
 .PHONY : clean
 
@@ -99,6 +102,75 @@ Listas/Lista12/clean: Listas/Lista12/CMakeFiles/exer10.dir/clean
 Listas/Lista12/clean: Listas/Lista12/CMakeFiles/exer12.dir/clean
 Listas/Lista12/clean: Listas/Lista12/CMakeFiles/exer14.dir/clean
 .PHONY : Listas/Lista12/clean
+
+#=============================================================================
+# Directory level rules for directory Listas/Lista13
+
+# Recursive "all" directory target.
+Listas/Lista13/all: Listas/Lista13/CMakeFiles/exer18.dir/all
+Listas/Lista13/all: Listas/Lista13/CMakeFiles/exer19.dir/all
+.PHONY : Listas/Lista13/all
+
+# Recursive "preinstall" directory target.
+Listas/Lista13/preinstall:
+.PHONY : Listas/Lista13/preinstall
+
+# Recursive "clean" directory target.
+Listas/Lista13/clean: Listas/Lista13/CMakeFiles/exer18.dir/clean
+Listas/Lista13/clean: Listas/Lista13/CMakeFiles/exer19.dir/clean
+.PHONY : Listas/Lista13/clean
+
+#=============================================================================
+# Target rules for target Listas/Lista13/CMakeFiles/exer18.dir
+
+# All Build rule for target.
+Listas/Lista13/CMakeFiles/exer18.dir/all:
+	$(MAKE) $(MAKESILENT) -f Listas\Lista13\CMakeFiles\exer18.dir\build.make Listas/Lista13/CMakeFiles/exer18.dir/depend
+	$(MAKE) $(MAKESILENT) -f Listas\Lista13\CMakeFiles\exer18.dir\build.make Listas/Lista13/CMakeFiles/exer18.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target exer18"
+.PHONY : Listas/Lista13/CMakeFiles/exer18.dir/all
+
+# Build rule for subdir invocation for target.
+Listas/Lista13/CMakeFiles/exer18.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Listas/Lista13/CMakeFiles/exer18.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles 0
+.PHONY : Listas/Lista13/CMakeFiles/exer18.dir/rule
+
+# Convenience name for target.
+exer18: Listas/Lista13/CMakeFiles/exer18.dir/rule
+.PHONY : exer18
+
+# clean rule for target.
+Listas/Lista13/CMakeFiles/exer18.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Listas\Lista13\CMakeFiles\exer18.dir\build.make Listas/Lista13/CMakeFiles/exer18.dir/clean
+.PHONY : Listas/Lista13/CMakeFiles/exer18.dir/clean
+
+#=============================================================================
+# Target rules for target Listas/Lista13/CMakeFiles/exer19.dir
+
+# All Build rule for target.
+Listas/Lista13/CMakeFiles/exer19.dir/all:
+	$(MAKE) $(MAKESILENT) -f Listas\Lista13\CMakeFiles\exer19.dir\build.make Listas/Lista13/CMakeFiles/exer19.dir/depend
+	$(MAKE) $(MAKESILENT) -f Listas\Lista13\CMakeFiles\exer19.dir\build.make Listas/Lista13/CMakeFiles/exer19.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target exer19"
+.PHONY : Listas/Lista13/CMakeFiles/exer19.dir/all
+
+# Build rule for subdir invocation for target.
+Listas/Lista13/CMakeFiles/exer19.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Listas/Lista13/CMakeFiles/exer19.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles 0
+.PHONY : Listas/Lista13/CMakeFiles/exer19.dir/rule
+
+# Convenience name for target.
+exer19: Listas/Lista13/CMakeFiles/exer19.dir/rule
+.PHONY : exer19
+
+# clean rule for target.
+Listas/Lista13/CMakeFiles/exer19.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Listas\Lista13\CMakeFiles\exer19.dir\build.make Listas/Lista13/CMakeFiles/exer19.dir/clean
+.PHONY : Listas/Lista13/CMakeFiles/exer19.dir/clean
 
 #=============================================================================
 # Target rules for target Listas/Lista12/CMakeFiles/exer02.dir

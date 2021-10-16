@@ -116,6 +116,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named exer18
+
+# Build rule for target.
+exer18: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 exer18
+.PHONY : exer18
+
+# fast build rule for target.
+exer18/fast:
+	$(MAKE) $(MAKESILENT) -f Listas\Lista13\CMakeFiles\exer18.dir\build.make Listas/Lista13/CMakeFiles/exer18.dir/build
+.PHONY : exer18/fast
+
+#=============================================================================
+# Target rules for targets named exer19
+
+# Build rule for target.
+exer19: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 exer19
+.PHONY : exer19
+
+# fast build rule for target.
+exer19/fast:
+	$(MAKE) $(MAKESILENT) -f Listas\Lista13\CMakeFiles\exer19.dir\build.make Listas/Lista13/CMakeFiles/exer19.dir/build
+.PHONY : exer19/fast
+
+#=============================================================================
 # Target rules for targets named exer02
 
 # Build rule for target.
@@ -221,6 +247,8 @@ help:
 	@echo ... exer10
 	@echo ... exer12
 	@echo ... exer14
+	@echo ... exer18
+	@echo ... exer19
 .PHONY : help
 
 
