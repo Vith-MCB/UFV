@@ -142,6 +142,19 @@ exer19/fast:
 .PHONY : exer19/fast
 
 #=============================================================================
+# Target rules for targets named exer20
+
+# Build rule for target.
+exer20: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 exer20
+.PHONY : exer20
+
+# fast build rule for target.
+exer20/fast:
+	$(MAKE) $(MAKESILENT) -f Listas\Lista13\CMakeFiles\exer20.dir\build.make Listas/Lista13/CMakeFiles/exer20.dir/build
+.PHONY : exer20/fast
+
+#=============================================================================
 # Target rules for targets named exer02
 
 # Build rule for target.
@@ -249,6 +262,7 @@ help:
 	@echo ... exer14
 	@echo ... exer18
 	@echo ... exer19
+	@echo ... exer20
 .PHONY : help
 
 

@@ -64,16 +64,6 @@ CMAKE_BINARY_DIR = C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -83,6 +73,16 @@ rebuild_cache:
 # Special rule for the target rebuild_cache
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -143,6 +143,20 @@ exer19/fast:
 	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista13\CMakeFiles\exer19.dir\build.make Listas/Lista13/CMakeFiles/exer19.dir/build
 .PHONY : exer19/fast
 
+# Convenience name for target.
+Listas/Lista13/CMakeFiles/exer20.dir/rule:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Listas/Lista13/CMakeFiles/exer20.dir/rule
+.PHONY : Listas/Lista13/CMakeFiles/exer20.dir/rule
+
+# Convenience name for target.
+exer20: Listas/Lista13/CMakeFiles/exer20.dir/rule
+.PHONY : exer20
+
+# fast build rule for target.
+exer20/fast:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista13\CMakeFiles\exer20.dir\build.make Listas/Lista13/CMakeFiles/exer20.dir/build
+.PHONY : exer20/fast
+
 exer18.obj: exer18.c.obj
 .PHONY : exer18.obj
 
@@ -191,6 +205,30 @@ exer19.c.s:
 	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista13\CMakeFiles\exer19.dir\build.make Listas/Lista13/CMakeFiles/exer19.dir/exer19.c.s
 .PHONY : exer19.c.s
 
+exer20.obj: exer20.c.obj
+.PHONY : exer20.obj
+
+# target to build an object file
+exer20.c.obj:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista13\CMakeFiles\exer20.dir\build.make Listas/Lista13/CMakeFiles/exer20.dir/exer20.c.obj
+.PHONY : exer20.c.obj
+
+exer20.i: exer20.c.i
+.PHONY : exer20.i
+
+# target to preprocess a source file
+exer20.c.i:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista13\CMakeFiles\exer20.dir\build.make Listas/Lista13/CMakeFiles/exer20.dir/exer20.c.i
+.PHONY : exer20.c.i
+
+exer20.s: exer20.c.s
+.PHONY : exer20.s
+
+# target to generate assembly for a file
+exer20.c.s:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista13\CMakeFiles\exer20.dir\build.make Listas/Lista13/CMakeFiles/exer20.dir/exer20.c.s
+.PHONY : exer20.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -201,12 +239,16 @@ help:
 	@echo ... rebuild_cache
 	@echo ... exer18
 	@echo ... exer19
+	@echo ... exer20
 	@echo ... exer18.obj
 	@echo ... exer18.i
 	@echo ... exer18.s
 	@echo ... exer19.obj
 	@echo ... exer19.i
 	@echo ... exer19.s
+	@echo ... exer20.obj
+	@echo ... exer20.i
+	@echo ... exer20.s
 .PHONY : help
 
 
