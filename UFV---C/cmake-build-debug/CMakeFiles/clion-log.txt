@@ -1,4 +1,59 @@
 "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" C:\Users\vitao\Documents\GitHub\UFV\UFV---C
--- Configuring done
--- Generating done
--- Build files have been written to: C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug
+CMake Error at Listas/Lista13/CMakeLists.txt:6 (add_executable):
+  add_executable cannot create target "exer02" because another target with
+  the same name already exists.  The existing target is an executable created
+  in source directory
+  "C:/Users/vitao/Documents/GitHub/UFV/UFV---C/Listas/Lista12".  See
+  documentation for policy CMP0002 for more details.
+
+
+CMake Error at Listas/Lista13/CMakeLists.txt:7 (add_executable):
+  add_executable cannot create target "exer04" because another target with
+  the same name already exists.  The existing target is an executable created
+  in source directory
+  "C:/Users/vitao/Documents/GitHub/UFV/UFV---C/Listas/Lista12".  See
+  documentation for policy CMP0002 for more details.
+
+
+CMake Error at Listas/Lista13/CMakeLists.txt:8 (add_executable):
+  add_executable cannot create target "exer06" because another target with
+  the same name already exists.  The existing target is an executable created
+  in source directory
+  "C:/Users/vitao/Documents/GitHub/UFV/UFV---C/Listas/Lista12".  See
+  documentation for policy CMP0002 for more details.
+
+
+CMake Error at Listas/Lista13/CMakeLists.txt:9 (add_executable):
+  add_executable cannot create target "exer08" because another target with
+  the same name already exists.  The existing target is an executable created
+  in source directory
+  "C:/Users/vitao/Documents/GitHub/UFV/UFV---C/Listas/Lista12".  See
+  documentation for policy CMP0002 for more details.
+
+
+CMake Error at Listas/Lista13/CMakeLists.txt:10 (add_executable):
+  add_executable cannot create target "exer10" because another target with
+  the same name already exists.  The existing target is an executable created
+  in source directory
+  "C:/Users/vitao/Documents/GitHub/UFV/UFV---C/Listas/Lista12".  See
+  documentation for policy CMP0002 for more details.
+
+
+CMake Error at Listas/Lista13/CMakeLists.txt:11 (add_executable):
+  add_executable cannot create target "exer12" because another target with
+  the same name already exists.  The existing target is an executable created
+  in source directory
+  "C:/Users/vitao/Documents/GitHub/UFV/UFV---C/Listas/Lista12".  See
+  documentation for policy CMP0002 for more details.
+
+
+CMake Error at Listas/Lista13/CMakeLists.txt:12 (add_executable):
+  add_executable cannot create target "exer14" because another target with
+  the same name already exists.  The existing target is an executable created
+  in source directory
+  "C:/Users/vitao/Documents/GitHub/UFV/UFV---C/Listas/Lista12".  See
+  documentation for policy CMP0002 for more details.
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/CMakeFiles/CMakeOutput.log".
