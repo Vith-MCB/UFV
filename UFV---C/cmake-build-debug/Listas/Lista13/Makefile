@@ -157,6 +157,20 @@ exer20/fast:
 	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista13\CMakeFiles\exer20.dir\build.make Listas/Lista13/CMakeFiles/exer20.dir/build
 .PHONY : exer20/fast
 
+# Convenience name for target.
+Listas/Lista13/CMakeFiles/exer21.dir/rule:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Listas/Lista13/CMakeFiles/exer21.dir/rule
+.PHONY : Listas/Lista13/CMakeFiles/exer21.dir/rule
+
+# Convenience name for target.
+exer21: Listas/Lista13/CMakeFiles/exer21.dir/rule
+.PHONY : exer21
+
+# fast build rule for target.
+exer21/fast:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista13\CMakeFiles\exer21.dir\build.make Listas/Lista13/CMakeFiles/exer21.dir/build
+.PHONY : exer21/fast
+
 exer18.obj: exer18.c.obj
 .PHONY : exer18.obj
 
@@ -229,6 +243,30 @@ exer20.c.s:
 	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista13\CMakeFiles\exer20.dir\build.make Listas/Lista13/CMakeFiles/exer20.dir/exer20.c.s
 .PHONY : exer20.c.s
 
+exer21.obj: exer21.c.obj
+.PHONY : exer21.obj
+
+# target to build an object file
+exer21.c.obj:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista13\CMakeFiles\exer21.dir\build.make Listas/Lista13/CMakeFiles/exer21.dir/exer21.c.obj
+.PHONY : exer21.c.obj
+
+exer21.i: exer21.c.i
+.PHONY : exer21.i
+
+# target to preprocess a source file
+exer21.c.i:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista13\CMakeFiles\exer21.dir\build.make Listas/Lista13/CMakeFiles/exer21.dir/exer21.c.i
+.PHONY : exer21.c.i
+
+exer21.s: exer21.c.s
+.PHONY : exer21.s
+
+# target to generate assembly for a file
+exer21.c.s:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista13\CMakeFiles\exer21.dir\build.make Listas/Lista13/CMakeFiles/exer21.dir/exer21.c.s
+.PHONY : exer21.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -240,6 +278,7 @@ help:
 	@echo ... exer18
 	@echo ... exer19
 	@echo ... exer20
+	@echo ... exer21
 	@echo ... exer18.obj
 	@echo ... exer18.i
 	@echo ... exer18.s
@@ -249,6 +288,9 @@ help:
 	@echo ... exer20.obj
 	@echo ... exer20.i
 	@echo ... exer20.s
+	@echo ... exer21.obj
+	@echo ... exer21.i
+	@echo ... exer21.s
 .PHONY : help
 
 
