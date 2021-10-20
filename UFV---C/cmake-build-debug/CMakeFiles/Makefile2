@@ -62,16 +62,19 @@ CMAKE_BINARY_DIR = C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: Listas/Lista14/all
 all: Listas/Lista13/all
 all: Listas/Lista12/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
+preinstall: Listas/Lista14/preinstall
 preinstall: Listas/Lista13/preinstall
 preinstall: Listas/Lista12/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: Listas/Lista14/clean
 clean: Listas/Lista13/clean
 clean: Listas/Lista12/clean
 .PHONY : clean
@@ -125,13 +128,82 @@ Listas/Lista13/clean: Listas/Lista13/CMakeFiles/exer21.dir/clean
 .PHONY : Listas/Lista13/clean
 
 #=============================================================================
+# Directory level rules for directory Listas/Lista14
+
+# Recursive "all" directory target.
+Listas/Lista14/all: Listas/Lista14/CMakeFiles/Lista14_exer01.dir/all
+Listas/Lista14/all: Listas/Lista14/CMakeFiles/Lista14_exer02.dir/all
+.PHONY : Listas/Lista14/all
+
+# Recursive "preinstall" directory target.
+Listas/Lista14/preinstall:
+.PHONY : Listas/Lista14/preinstall
+
+# Recursive "clean" directory target.
+Listas/Lista14/clean: Listas/Lista14/CMakeFiles/Lista14_exer01.dir/clean
+Listas/Lista14/clean: Listas/Lista14/CMakeFiles/Lista14_exer02.dir/clean
+.PHONY : Listas/Lista14/clean
+
+#=============================================================================
+# Target rules for target Listas/Lista14/CMakeFiles/Lista14_exer01.dir
+
+# All Build rule for target.
+Listas/Lista14/CMakeFiles/Lista14_exer01.dir/all:
+	$(MAKE) $(MAKESILENT) -f Listas\Lista14\CMakeFiles\Lista14_exer01.dir\build.make Listas/Lista14/CMakeFiles/Lista14_exer01.dir/depend
+	$(MAKE) $(MAKESILENT) -f Listas\Lista14\CMakeFiles\Lista14_exer01.dir\build.make Listas/Lista14/CMakeFiles/Lista14_exer01.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Lista14_exer01"
+.PHONY : Listas/Lista14/CMakeFiles/Lista14_exer01.dir/all
+
+# Build rule for subdir invocation for target.
+Listas/Lista14/CMakeFiles/Lista14_exer01.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Listas/Lista14/CMakeFiles/Lista14_exer01.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles 0
+.PHONY : Listas/Lista14/CMakeFiles/Lista14_exer01.dir/rule
+
+# Convenience name for target.
+Lista14_exer01: Listas/Lista14/CMakeFiles/Lista14_exer01.dir/rule
+.PHONY : Lista14_exer01
+
+# clean rule for target.
+Listas/Lista14/CMakeFiles/Lista14_exer01.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Listas\Lista14\CMakeFiles\Lista14_exer01.dir\build.make Listas/Lista14/CMakeFiles/Lista14_exer01.dir/clean
+.PHONY : Listas/Lista14/CMakeFiles/Lista14_exer01.dir/clean
+
+#=============================================================================
+# Target rules for target Listas/Lista14/CMakeFiles/Lista14_exer02.dir
+
+# All Build rule for target.
+Listas/Lista14/CMakeFiles/Lista14_exer02.dir/all:
+	$(MAKE) $(MAKESILENT) -f Listas\Lista14\CMakeFiles\Lista14_exer02.dir\build.make Listas/Lista14/CMakeFiles/Lista14_exer02.dir/depend
+	$(MAKE) $(MAKESILENT) -f Listas\Lista14\CMakeFiles\Lista14_exer02.dir\build.make Listas/Lista14/CMakeFiles/Lista14_exer02.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target Lista14_exer02"
+.PHONY : Listas/Lista14/CMakeFiles/Lista14_exer02.dir/all
+
+# Build rule for subdir invocation for target.
+Listas/Lista14/CMakeFiles/Lista14_exer02.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Listas/Lista14/CMakeFiles/Lista14_exer02.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles 0
+.PHONY : Listas/Lista14/CMakeFiles/Lista14_exer02.dir/rule
+
+# Convenience name for target.
+Lista14_exer02: Listas/Lista14/CMakeFiles/Lista14_exer02.dir/rule
+.PHONY : Lista14_exer02
+
+# clean rule for target.
+Listas/Lista14/CMakeFiles/Lista14_exer02.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Listas\Lista14\CMakeFiles\Lista14_exer02.dir\build.make Listas/Lista14/CMakeFiles/Lista14_exer02.dir/clean
+.PHONY : Listas/Lista14/CMakeFiles/Lista14_exer02.dir/clean
+
+#=============================================================================
 # Target rules for target Listas/Lista13/CMakeFiles/exer18.dir
 
 # All Build rule for target.
 Listas/Lista13/CMakeFiles/exer18.dir/all:
 	$(MAKE) $(MAKESILENT) -f Listas\Lista13\CMakeFiles\exer18.dir\build.make Listas/Lista13/CMakeFiles/exer18.dir/depend
 	$(MAKE) $(MAKESILENT) -f Listas\Lista13\CMakeFiles\exer18.dir\build.make Listas/Lista13/CMakeFiles/exer18.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target exer18"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target exer18"
 .PHONY : Listas/Lista13/CMakeFiles/exer18.dir/all
 
 # Build rule for subdir invocation for target.
@@ -157,7 +229,7 @@ Listas/Lista13/CMakeFiles/exer18.dir/clean:
 Listas/Lista13/CMakeFiles/exer19.dir/all:
 	$(MAKE) $(MAKESILENT) -f Listas\Lista13\CMakeFiles\exer19.dir\build.make Listas/Lista13/CMakeFiles/exer19.dir/depend
 	$(MAKE) $(MAKESILENT) -f Listas\Lista13\CMakeFiles\exer19.dir\build.make Listas/Lista13/CMakeFiles/exer19.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target exer19"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target exer19"
 .PHONY : Listas/Lista13/CMakeFiles/exer19.dir/all
 
 # Build rule for subdir invocation for target.
@@ -183,7 +255,7 @@ Listas/Lista13/CMakeFiles/exer19.dir/clean:
 Listas/Lista13/CMakeFiles/exer20.dir/all:
 	$(MAKE) $(MAKESILENT) -f Listas\Lista13\CMakeFiles\exer20.dir\build.make Listas/Lista13/CMakeFiles/exer20.dir/depend
 	$(MAKE) $(MAKESILENT) -f Listas\Lista13\CMakeFiles\exer20.dir\build.make Listas/Lista13/CMakeFiles/exer20.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target exer20"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target exer20"
 .PHONY : Listas/Lista13/CMakeFiles/exer20.dir/all
 
 # Build rule for subdir invocation for target.
@@ -209,7 +281,7 @@ Listas/Lista13/CMakeFiles/exer20.dir/clean:
 Listas/Lista13/CMakeFiles/exer21.dir/all:
 	$(MAKE) $(MAKESILENT) -f Listas\Lista13\CMakeFiles\exer21.dir\build.make Listas/Lista13/CMakeFiles/exer21.dir/depend
 	$(MAKE) $(MAKESILENT) -f Listas\Lista13\CMakeFiles\exer21.dir\build.make Listas/Lista13/CMakeFiles/exer21.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target exer21"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target exer21"
 .PHONY : Listas/Lista13/CMakeFiles/exer21.dir/all
 
 # Build rule for subdir invocation for target.
@@ -235,7 +307,7 @@ Listas/Lista13/CMakeFiles/exer21.dir/clean:
 Listas/Lista12/CMakeFiles/exer02.dir/all:
 	$(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer02.dir\build.make Listas/Lista12/CMakeFiles/exer02.dir/depend
 	$(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer02.dir\build.make Listas/Lista12/CMakeFiles/exer02.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target exer02"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target exer02"
 .PHONY : Listas/Lista12/CMakeFiles/exer02.dir/all
 
 # Build rule for subdir invocation for target.
@@ -261,7 +333,7 @@ Listas/Lista12/CMakeFiles/exer02.dir/clean:
 Listas/Lista12/CMakeFiles/exer04.dir/all:
 	$(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer04.dir\build.make Listas/Lista12/CMakeFiles/exer04.dir/depend
 	$(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer04.dir\build.make Listas/Lista12/CMakeFiles/exer04.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target exer04"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target exer04"
 .PHONY : Listas/Lista12/CMakeFiles/exer04.dir/all
 
 # Build rule for subdir invocation for target.
@@ -287,7 +359,7 @@ Listas/Lista12/CMakeFiles/exer04.dir/clean:
 Listas/Lista12/CMakeFiles/exer06.dir/all:
 	$(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer06.dir\build.make Listas/Lista12/CMakeFiles/exer06.dir/depend
 	$(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer06.dir\build.make Listas/Lista12/CMakeFiles/exer06.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target exer06"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target exer06"
 .PHONY : Listas/Lista12/CMakeFiles/exer06.dir/all
 
 # Build rule for subdir invocation for target.
@@ -313,7 +385,7 @@ Listas/Lista12/CMakeFiles/exer06.dir/clean:
 Listas/Lista12/CMakeFiles/exer08.dir/all:
 	$(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer08.dir\build.make Listas/Lista12/CMakeFiles/exer08.dir/depend
 	$(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer08.dir\build.make Listas/Lista12/CMakeFiles/exer08.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target exer08"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target exer08"
 .PHONY : Listas/Lista12/CMakeFiles/exer08.dir/all
 
 # Build rule for subdir invocation for target.
@@ -339,7 +411,7 @@ Listas/Lista12/CMakeFiles/exer08.dir/clean:
 Listas/Lista12/CMakeFiles/exer10.dir/all:
 	$(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer10.dir\build.make Listas/Lista12/CMakeFiles/exer10.dir/depend
 	$(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer10.dir\build.make Listas/Lista12/CMakeFiles/exer10.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target exer10"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target exer10"
 .PHONY : Listas/Lista12/CMakeFiles/exer10.dir/all
 
 # Build rule for subdir invocation for target.
@@ -365,7 +437,7 @@ Listas/Lista12/CMakeFiles/exer10.dir/clean:
 Listas/Lista12/CMakeFiles/exer12.dir/all:
 	$(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer12.dir\build.make Listas/Lista12/CMakeFiles/exer12.dir/depend
 	$(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer12.dir\build.make Listas/Lista12/CMakeFiles/exer12.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target exer12"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target exer12"
 .PHONY : Listas/Lista12/CMakeFiles/exer12.dir/all
 
 # Build rule for subdir invocation for target.
@@ -391,7 +463,7 @@ Listas/Lista12/CMakeFiles/exer12.dir/clean:
 Listas/Lista12/CMakeFiles/exer14.dir/all:
 	$(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer14.dir\build.make Listas/Lista12/CMakeFiles/exer14.dir/depend
 	$(MAKE) $(MAKESILENT) -f Listas\Lista12\CMakeFiles\exer14.dir\build.make Listas/Lista12/CMakeFiles/exer14.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target exer14"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target exer14"
 .PHONY : Listas/Lista12/CMakeFiles/exer14.dir/all
 
 # Build rule for subdir invocation for target.

@@ -5,7 +5,7 @@
 		<Option title="Lista13"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\Listas\;CMake Files\Listas\Lista12\;CMake Files\Listas\Lista13\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Listas\;CMake Files\Listas\Lista12\;CMake Files\Listas\Lista13\;CMake Files\Listas\Lista14\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista13"/>
@@ -182,6 +182,9 @@
 		</Unit>
 		<Unit filename="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/Listas/Lista13/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Listas\Lista13\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/Listas/Lista14/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Listas\Lista14\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
