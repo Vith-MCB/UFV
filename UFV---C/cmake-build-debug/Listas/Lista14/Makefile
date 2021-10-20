@@ -143,6 +143,20 @@ Lista14_exer02/fast:
 	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista14\CMakeFiles\Lista14_exer02.dir\build.make Listas/Lista14/CMakeFiles/Lista14_exer02.dir/build
 .PHONY : Lista14_exer02/fast
 
+# Convenience name for target.
+Listas/Lista14/CMakeFiles/Lista14_exer03.dir/rule:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Listas/Lista14/CMakeFiles/Lista14_exer03.dir/rule
+.PHONY : Listas/Lista14/CMakeFiles/Lista14_exer03.dir/rule
+
+# Convenience name for target.
+Lista14_exer03: Listas/Lista14/CMakeFiles/Lista14_exer03.dir/rule
+.PHONY : Lista14_exer03
+
+# fast build rule for target.
+Lista14_exer03/fast:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista14\CMakeFiles\Lista14_exer03.dir\build.make Listas/Lista14/CMakeFiles/Lista14_exer03.dir/build
+.PHONY : Lista14_exer03/fast
+
 exer01.obj: exer01.c.obj
 .PHONY : exer01.obj
 
@@ -191,6 +205,30 @@ exer02.c.s:
 	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista14\CMakeFiles\Lista14_exer02.dir\build.make Listas/Lista14/CMakeFiles/Lista14_exer02.dir/exer02.c.s
 .PHONY : exer02.c.s
 
+exer03.obj: exer03.c.obj
+.PHONY : exer03.obj
+
+# target to build an object file
+exer03.c.obj:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista14\CMakeFiles\Lista14_exer03.dir\build.make Listas/Lista14/CMakeFiles/Lista14_exer03.dir/exer03.c.obj
+.PHONY : exer03.c.obj
+
+exer03.i: exer03.c.i
+.PHONY : exer03.i
+
+# target to preprocess a source file
+exer03.c.i:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista14\CMakeFiles\Lista14_exer03.dir\build.make Listas/Lista14/CMakeFiles/Lista14_exer03.dir/exer03.c.i
+.PHONY : exer03.c.i
+
+exer03.s: exer03.c.s
+.PHONY : exer03.s
+
+# target to generate assembly for a file
+exer03.c.s:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista14\CMakeFiles\Lista14_exer03.dir\build.make Listas/Lista14/CMakeFiles/Lista14_exer03.dir/exer03.c.s
+.PHONY : exer03.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -201,12 +239,16 @@ help:
 	@echo ... rebuild_cache
 	@echo ... Lista14_exer01
 	@echo ... Lista14_exer02
+	@echo ... Lista14_exer03
 	@echo ... exer01.obj
 	@echo ... exer01.i
 	@echo ... exer01.s
 	@echo ... exer02.obj
 	@echo ... exer02.i
 	@echo ... exer02.s
+	@echo ... exer03.obj
+	@echo ... exer03.i
+	@echo ... exer03.s
 .PHONY : help
 
 
