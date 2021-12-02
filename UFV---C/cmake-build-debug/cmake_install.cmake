@@ -39,6 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
+  include("C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/runcodes/cmake_install.cmake")
   include("C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista14/cmake_install.cmake")
   include("C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista13/cmake_install.cmake")
   include("C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista12/cmake_install.cmake")

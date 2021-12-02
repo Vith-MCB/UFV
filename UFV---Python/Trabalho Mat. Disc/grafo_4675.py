@@ -1,27 +1,33 @@
 n = int(input())
-g = [[0 for i in range(n)] for j in range(n)]
 c = int(input())
-k = 1
-guarda = 0
-cont = 0
-test = 1
 lista = input().split()
+graph = [[0 for i in range(n)] for j in range(n)]
+cont = 0
 for i in range(n):
     for j in range(n):
-        g[i][j] = int(lista[cont])
+        graph[i][j] = int(lista[cont])
         cont += 1
-for x in g:
-    print(x)
-for j in range(n):
-    if g[c][j] == 1:
-        guarda = j
-        k += 1
-        while test:
-            for y in range(n):
-                if guarda == y:
-                    test = 0
-                if g[j][y] == 1 and y != c:
-                    k += 1
-                    test = 0
-
+        if i == j:
+            graph[i][j] = 0
+listaMemoria = [c]
+contaminados = []
+contaminados.append(c)
+k = 1
+while True:
+    veLinha = listaMemoria[-1]
+    check = 0
+    for i in range(n):
+        if graph[veLinha][i] == 1:
+            graph[veLinha][i] = 0
+            graph[i][veLinha] = 0
+            listaMemoria.append(i)
+            contaminados.append(i)
+            check = 1
+            k += 1
+            break
+    if check == 0:
+        if listaMemoria[-1] == c:
+            break
+        else:
+            listaMemoria.pop()
 print(k)

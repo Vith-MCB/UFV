@@ -1,8 +1,15 @@
 C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/runcodes/CMakeFiles/edit_cache.dir
+C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/runcodes/CMakeFiles/teste.dir
+C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/runcodes/CMakeFiles/quest1.dir
+C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/runcodes/CMakeFiles/rebuild_cache.dir
+C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/runcodes/CMakeFiles/quest2.dir
 C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista14/CMakeFiles/Lista14_exer01.dir
 C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista14/CMakeFiles/Lista14_exer02.dir
 C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista14/CMakeFiles/Lista14_exer03.dir
+C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista14/CMakeFiles/Lista14_exer04.dir
+C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista14/CMakeFiles/Lista14_exer05.dir
 C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista14/CMakeFiles/edit_cache.dir
 C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista14/CMakeFiles/rebuild_cache.dir
 C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista13/CMakeFiles/exer18.dir

@@ -5,7 +5,7 @@
 		<Option title="UFV___C"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\Listas\;CMake Files\Listas\Lista12\;CMake Files\Listas\Lista13\;CMake Files\Listas\Lista14\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Listas\;CMake Files\Listas\Lista12\;CMake Files\Listas\Lista13\;CMake Files\Listas\Lista14\;CMake Files\Listas\runcodes\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug"/>
@@ -35,6 +35,114 @@
 					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="teste">
+				<Option output="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/runcodes/teste.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/runcodes"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/runcodes/Makefile&quot;  VERBOSE=1 teste"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/runcodes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/runcodes/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/runcodes/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="teste/fast">
+				<Option output="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/runcodes/teste.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/runcodes"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/runcodes/Makefile&quot;  VERBOSE=1 teste/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/runcodes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/runcodes/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/runcodes/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="quest1">
+				<Option output="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/runcodes/quest1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/runcodes"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/runcodes/Makefile&quot;  VERBOSE=1 quest1"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/runcodes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/runcodes/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/runcodes/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="quest1/fast">
+				<Option output="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/runcodes/quest1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/runcodes"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/runcodes/Makefile&quot;  VERBOSE=1 quest1/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/runcodes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/runcodes/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/runcodes/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="quest2">
+				<Option output="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/runcodes/quest2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/runcodes"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/runcodes/Makefile&quot;  VERBOSE=1 quest2"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/runcodes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/runcodes/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/runcodes/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="quest2/fast">
+				<Option output="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/runcodes/quest2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/runcodes"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/runcodes/Makefile&quot;  VERBOSE=1 quest2/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/runcodes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/runcodes/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/runcodes/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Lista14_exer01">
@@ -140,6 +248,78 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista14/Makefile&quot;  VERBOSE=1 Lista14_exer03/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista14/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista14/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista14/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lista14_exer04">
+				<Option output="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista14/Lista14_exer04.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista14"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista14/Makefile&quot;  VERBOSE=1 Lista14_exer04"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista14/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista14/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista14/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lista14_exer04/fast">
+				<Option output="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista14/Lista14_exer04.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista14"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista14/Makefile&quot;  VERBOSE=1 Lista14_exer04/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista14/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista14/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista14/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lista14_exer05">
+				<Option output="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista14/Lista14_exer05.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista14"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista14/Makefile&quot;  VERBOSE=1 Lista14_exer05"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista14/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista14/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista14/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lista14_exer05/fast">
+				<Option output="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista14/Lista14_exer05.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista14"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista14/Makefile&quot;  VERBOSE=1 Lista14_exer05/fast"/>
 					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista14/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista14/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista14/Makefile&quot;  VERBOSE=1 clean"/>
@@ -584,6 +764,21 @@
 		<Unit filename="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/Listas/Lista14/exer03.c">
 			<Option target="Lista14_exer03"/>
 		</Unit>
+		<Unit filename="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/Listas/Lista14/exer04.c">
+			<Option target="Lista14_exer04"/>
+		</Unit>
+		<Unit filename="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/Listas/Lista14/exer05.c">
+			<Option target="Lista14_exer05"/>
+		</Unit>
+		<Unit filename="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/Listas/runcodes/quest1.c">
+			<Option target="quest1"/>
+		</Unit>
+		<Unit filename="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/Listas/runcodes/quest2.c">
+			<Option target="quest2"/>
+		</Unit>
+		<Unit filename="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/Listas/runcodes/teste.c">
+			<Option target="teste"/>
+		</Unit>
 		<Unit filename="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
@@ -595,6 +790,9 @@
 		</Unit>
 		<Unit filename="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/Listas/Lista14/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Listas\Lista14\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/Listas/runcodes/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Listas\runcodes\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

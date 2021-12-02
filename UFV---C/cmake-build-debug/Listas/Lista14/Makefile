@@ -157,6 +157,34 @@ Lista14_exer03/fast:
 	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista14\CMakeFiles\Lista14_exer03.dir\build.make Listas/Lista14/CMakeFiles/Lista14_exer03.dir/build
 .PHONY : Lista14_exer03/fast
 
+# Convenience name for target.
+Listas/Lista14/CMakeFiles/Lista14_exer04.dir/rule:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Listas/Lista14/CMakeFiles/Lista14_exer04.dir/rule
+.PHONY : Listas/Lista14/CMakeFiles/Lista14_exer04.dir/rule
+
+# Convenience name for target.
+Lista14_exer04: Listas/Lista14/CMakeFiles/Lista14_exer04.dir/rule
+.PHONY : Lista14_exer04
+
+# fast build rule for target.
+Lista14_exer04/fast:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista14\CMakeFiles\Lista14_exer04.dir\build.make Listas/Lista14/CMakeFiles/Lista14_exer04.dir/build
+.PHONY : Lista14_exer04/fast
+
+# Convenience name for target.
+Listas/Lista14/CMakeFiles/Lista14_exer05.dir/rule:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Listas/Lista14/CMakeFiles/Lista14_exer05.dir/rule
+.PHONY : Listas/Lista14/CMakeFiles/Lista14_exer05.dir/rule
+
+# Convenience name for target.
+Lista14_exer05: Listas/Lista14/CMakeFiles/Lista14_exer05.dir/rule
+.PHONY : Lista14_exer05
+
+# fast build rule for target.
+Lista14_exer05/fast:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista14\CMakeFiles\Lista14_exer05.dir\build.make Listas/Lista14/CMakeFiles/Lista14_exer05.dir/build
+.PHONY : Lista14_exer05/fast
+
 exer01.obj: exer01.c.obj
 .PHONY : exer01.obj
 
@@ -229,6 +257,54 @@ exer03.c.s:
 	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista14\CMakeFiles\Lista14_exer03.dir\build.make Listas/Lista14/CMakeFiles/Lista14_exer03.dir/exer03.c.s
 .PHONY : exer03.c.s
 
+exer04.obj: exer04.c.obj
+.PHONY : exer04.obj
+
+# target to build an object file
+exer04.c.obj:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista14\CMakeFiles\Lista14_exer04.dir\build.make Listas/Lista14/CMakeFiles/Lista14_exer04.dir/exer04.c.obj
+.PHONY : exer04.c.obj
+
+exer04.i: exer04.c.i
+.PHONY : exer04.i
+
+# target to preprocess a source file
+exer04.c.i:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista14\CMakeFiles\Lista14_exer04.dir\build.make Listas/Lista14/CMakeFiles/Lista14_exer04.dir/exer04.c.i
+.PHONY : exer04.c.i
+
+exer04.s: exer04.c.s
+.PHONY : exer04.s
+
+# target to generate assembly for a file
+exer04.c.s:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista14\CMakeFiles\Lista14_exer04.dir\build.make Listas/Lista14/CMakeFiles/Lista14_exer04.dir/exer04.c.s
+.PHONY : exer04.c.s
+
+exer05.obj: exer05.c.obj
+.PHONY : exer05.obj
+
+# target to build an object file
+exer05.c.obj:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista14\CMakeFiles\Lista14_exer05.dir\build.make Listas/Lista14/CMakeFiles/Lista14_exer05.dir/exer05.c.obj
+.PHONY : exer05.c.obj
+
+exer05.i: exer05.c.i
+.PHONY : exer05.i
+
+# target to preprocess a source file
+exer05.c.i:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista14\CMakeFiles\Lista14_exer05.dir\build.make Listas/Lista14/CMakeFiles/Lista14_exer05.dir/exer05.c.i
+.PHONY : exer05.c.i
+
+exer05.s: exer05.c.s
+.PHONY : exer05.s
+
+# target to generate assembly for a file
+exer05.c.s:
+	cd /d C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Listas\Lista14\CMakeFiles\Lista14_exer05.dir\build.make Listas/Lista14/CMakeFiles/Lista14_exer05.dir/exer05.c.s
+.PHONY : exer05.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -240,6 +316,8 @@ help:
 	@echo ... Lista14_exer01
 	@echo ... Lista14_exer02
 	@echo ... Lista14_exer03
+	@echo ... Lista14_exer04
+	@echo ... Lista14_exer05
 	@echo ... exer01.obj
 	@echo ... exer01.i
 	@echo ... exer01.s
@@ -249,6 +327,12 @@ help:
 	@echo ... exer03.obj
 	@echo ... exer03.i
 	@echo ... exer03.s
+	@echo ... exer04.obj
+	@echo ... exer04.i
+	@echo ... exer04.s
+	@echo ... exer05.obj
+	@echo ... exer05.i
+	@echo ... exer05.s
 .PHONY : help
 
 

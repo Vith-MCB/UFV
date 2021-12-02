@@ -116,6 +116,45 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named teste
+
+# Build rule for target.
+teste: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 teste
+.PHONY : teste
+
+# fast build rule for target.
+teste/fast:
+	$(MAKE) $(MAKESILENT) -f Listas\runcodes\CMakeFiles\teste.dir\build.make Listas/runcodes/CMakeFiles/teste.dir/build
+.PHONY : teste/fast
+
+#=============================================================================
+# Target rules for targets named quest1
+
+# Build rule for target.
+quest1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 quest1
+.PHONY : quest1
+
+# fast build rule for target.
+quest1/fast:
+	$(MAKE) $(MAKESILENT) -f Listas\runcodes\CMakeFiles\quest1.dir\build.make Listas/runcodes/CMakeFiles/quest1.dir/build
+.PHONY : quest1/fast
+
+#=============================================================================
+# Target rules for targets named quest2
+
+# Build rule for target.
+quest2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 quest2
+.PHONY : quest2
+
+# fast build rule for target.
+quest2/fast:
+	$(MAKE) $(MAKESILENT) -f Listas\runcodes\CMakeFiles\quest2.dir\build.make Listas/runcodes/CMakeFiles/quest2.dir/build
+.PHONY : quest2/fast
+
+#=============================================================================
 # Target rules for targets named Lista14_exer01
 
 # Build rule for target.
@@ -153,6 +192,32 @@ Lista14_exer03: cmake_check_build_system
 Lista14_exer03/fast:
 	$(MAKE) $(MAKESILENT) -f Listas\Lista14\CMakeFiles\Lista14_exer03.dir\build.make Listas/Lista14/CMakeFiles/Lista14_exer03.dir/build
 .PHONY : Lista14_exer03/fast
+
+#=============================================================================
+# Target rules for targets named Lista14_exer04
+
+# Build rule for target.
+Lista14_exer04: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Lista14_exer04
+.PHONY : Lista14_exer04
+
+# fast build rule for target.
+Lista14_exer04/fast:
+	$(MAKE) $(MAKESILENT) -f Listas\Lista14\CMakeFiles\Lista14_exer04.dir\build.make Listas/Lista14/CMakeFiles/Lista14_exer04.dir/build
+.PHONY : Lista14_exer04/fast
+
+#=============================================================================
+# Target rules for targets named Lista14_exer05
+
+# Build rule for target.
+Lista14_exer05: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Lista14_exer05
+.PHONY : Lista14_exer05
+
+# fast build rule for target.
+Lista14_exer05/fast:
+	$(MAKE) $(MAKESILENT) -f Listas\Lista14\CMakeFiles\Lista14_exer05.dir\build.make Listas/Lista14/CMakeFiles/Lista14_exer05.dir/build
+.PHONY : Lista14_exer05/fast
 
 #=============================================================================
 # Target rules for targets named exer18
@@ -308,6 +373,8 @@ help:
 	@echo ... Lista14_exer01
 	@echo ... Lista14_exer02
 	@echo ... Lista14_exer03
+	@echo ... Lista14_exer04
+	@echo ... Lista14_exer05
 	@echo ... exer02
 	@echo ... exer04
 	@echo ... exer06
@@ -319,6 +386,9 @@ help:
 	@echo ... exer19
 	@echo ... exer20
 	@echo ... exer21
+	@echo ... quest1
+	@echo ... quest2
+	@echo ... teste
 .PHONY : help
 
 

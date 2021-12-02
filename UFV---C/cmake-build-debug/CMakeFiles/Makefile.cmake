@@ -35,6 +35,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../Listas/Lista12/CMakeLists.txt"
   "../Listas/Lista13/CMakeLists.txt"
   "../Listas/Lista14/CMakeLists.txt"
+  "../Listas/runcodes/CMakeLists.txt"
   "CMakeFiles/3.20.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.20.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.20.2/CMakeRCCompiler.cmake"
@@ -50,6 +51,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Listas/runcodes/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Listas/Lista14/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Listas/Lista13/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Listas/Lista12/CMakeFiles/CMakeDirectoryInformation.cmake"
@@ -57,9 +59,14 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "Listas/runcodes/CMakeFiles/teste.dir/DependInfo.cmake"
+  "Listas/runcodes/CMakeFiles/quest1.dir/DependInfo.cmake"
+  "Listas/runcodes/CMakeFiles/quest2.dir/DependInfo.cmake"
   "Listas/Lista14/CMakeFiles/Lista14_exer01.dir/DependInfo.cmake"
   "Listas/Lista14/CMakeFiles/Lista14_exer02.dir/DependInfo.cmake"
   "Listas/Lista14/CMakeFiles/Lista14_exer03.dir/DependInfo.cmake"
+  "Listas/Lista14/CMakeFiles/Lista14_exer04.dir/DependInfo.cmake"
+  "Listas/Lista14/CMakeFiles/Lista14_exer05.dir/DependInfo.cmake"
   "Listas/Lista13/CMakeFiles/exer18.dir/DependInfo.cmake"
   "Listas/Lista13/CMakeFiles/exer19.dir/DependInfo.cmake"
   "Listas/Lista13/CMakeFiles/exer20.dir/DependInfo.cmake"
