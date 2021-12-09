@@ -1,5 +1,11 @@
 C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios/CMakeFiles/edit_cache.dir
+C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios/CMakeFiles/main.dir
+C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios/CMakeFiles/conta.c.dir
+C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios/CMakeFiles/rebuild_cache.dir
+C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios/CMakeFiles/endereco.c.dir
+C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios/CMakeFiles/cliente.c.dir
 C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/runcodes/CMakeFiles/edit_cache.dir
 C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/runcodes/CMakeFiles/teste.dir
 C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/runcodes/CMakeFiles/quest1.dir

@@ -116,6 +116,58 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named main
+
+# Build rule for target.
+main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 main
+.PHONY : main
+
+# fast build rule for target.
+main/fast:
+	$(MAKE) $(MAKESILENT) -f AEDS\Exercicios\CMakeFiles\main.dir\build.make AEDS/Exercicios/CMakeFiles/main.dir/build
+.PHONY : main/fast
+
+#=============================================================================
+# Target rules for targets named conta.c
+
+# Build rule for target.
+conta.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 conta.c
+.PHONY : conta.c
+
+# fast build rule for target.
+conta.c/fast:
+	$(MAKE) $(MAKESILENT) -f AEDS\Exercicios\CMakeFiles\conta.c.dir\build.make AEDS/Exercicios/CMakeFiles/conta.c.dir/build
+.PHONY : conta.c/fast
+
+#=============================================================================
+# Target rules for targets named endereco.c
+
+# Build rule for target.
+endereco.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 endereco.c
+.PHONY : endereco.c
+
+# fast build rule for target.
+endereco.c/fast:
+	$(MAKE) $(MAKESILENT) -f AEDS\Exercicios\CMakeFiles\endereco.c.dir\build.make AEDS/Exercicios/CMakeFiles/endereco.c.dir/build
+.PHONY : endereco.c/fast
+
+#=============================================================================
+# Target rules for targets named cliente.c
+
+# Build rule for target.
+cliente.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cliente.c
+.PHONY : cliente.c
+
+# fast build rule for target.
+cliente.c/fast:
+	$(MAKE) $(MAKESILENT) -f AEDS\Exercicios\CMakeFiles\cliente.c.dir\build.make AEDS/Exercicios/CMakeFiles/cliente.c.dir/build
+.PHONY : cliente.c/fast
+
+#=============================================================================
 # Target rules for targets named teste
 
 # Build rule for target.
@@ -375,6 +427,9 @@ help:
 	@echo ... Lista14_exer03
 	@echo ... Lista14_exer04
 	@echo ... Lista14_exer05
+	@echo ... cliente.c
+	@echo ... conta.c
+	@echo ... endereco.c
 	@echo ... exer02
 	@echo ... exer04
 	@echo ... exer06
@@ -386,6 +441,7 @@ help:
 	@echo ... exer19
 	@echo ... exer20
 	@echo ... exer21
+	@echo ... main
 	@echo ... quest1
 	@echo ... quest2
 	@echo ... teste

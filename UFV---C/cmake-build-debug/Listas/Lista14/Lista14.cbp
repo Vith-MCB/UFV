@@ -5,7 +5,7 @@
 		<Option title="Lista14"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\Listas\;CMake Files\Listas\Lista12\;CMake Files\Listas\Lista13\;CMake Files\Listas\Lista14\;CMake Files\Listas\runcodes\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\AEDS\;CMake Files\AEDS\Exercicios\;CMake Files\Listas\;CMake Files\Listas\Lista12\;CMake Files\Listas\Lista13\;CMake Files\Listas\Lista14\;CMake Files\Listas\runcodes\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/Listas/Lista14"/>
@@ -215,6 +215,9 @@
 		</Unit>
 		<Unit filename="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/AEDS/Exercicios/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\AEDS\Exercicios\"/>
 		</Unit>
 		<Unit filename="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/Listas/Lista12/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Listas\Lista12\"/>

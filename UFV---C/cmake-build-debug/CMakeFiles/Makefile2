@@ -62,6 +62,7 @@ CMAKE_BINARY_DIR = C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: AEDS/Exercicios/all
 all: Listas/runcodes/all
 all: Listas/Lista14/all
 all: Listas/Lista13/all
@@ -69,6 +70,7 @@ all: Listas/Lista12/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
+preinstall: AEDS/Exercicios/preinstall
 preinstall: Listas/runcodes/preinstall
 preinstall: Listas/Lista14/preinstall
 preinstall: Listas/Lista13/preinstall
@@ -76,11 +78,33 @@ preinstall: Listas/Lista12/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: AEDS/Exercicios/clean
 clean: Listas/runcodes/clean
 clean: Listas/Lista14/clean
 clean: Listas/Lista13/clean
 clean: Listas/Lista12/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory AEDS/Exercicios
+
+# Recursive "all" directory target.
+AEDS/Exercicios/all: AEDS/Exercicios/CMakeFiles/main.dir/all
+AEDS/Exercicios/all: AEDS/Exercicios/CMakeFiles/conta.c.dir/all
+AEDS/Exercicios/all: AEDS/Exercicios/CMakeFiles/endereco.c.dir/all
+AEDS/Exercicios/all: AEDS/Exercicios/CMakeFiles/cliente.c.dir/all
+.PHONY : AEDS/Exercicios/all
+
+# Recursive "preinstall" directory target.
+AEDS/Exercicios/preinstall:
+.PHONY : AEDS/Exercicios/preinstall
+
+# Recursive "clean" directory target.
+AEDS/Exercicios/clean: AEDS/Exercicios/CMakeFiles/main.dir/clean
+AEDS/Exercicios/clean: AEDS/Exercicios/CMakeFiles/conta.c.dir/clean
+AEDS/Exercicios/clean: AEDS/Exercicios/CMakeFiles/endereco.c.dir/clean
+AEDS/Exercicios/clean: AEDS/Exercicios/CMakeFiles/cliente.c.dir/clean
+.PHONY : AEDS/Exercicios/clean
 
 #=============================================================================
 # Directory level rules for directory Listas/Lista12
@@ -173,13 +197,117 @@ Listas/runcodes/clean: Listas/runcodes/CMakeFiles/quest2.dir/clean
 .PHONY : Listas/runcodes/clean
 
 #=============================================================================
+# Target rules for target AEDS/Exercicios/CMakeFiles/main.dir
+
+# All Build rule for target.
+AEDS/Exercicios/CMakeFiles/main.dir/all:
+	$(MAKE) $(MAKESILENT) -f AEDS\Exercicios\CMakeFiles\main.dir\build.make AEDS/Exercicios/CMakeFiles/main.dir/depend
+	$(MAKE) $(MAKESILENT) -f AEDS\Exercicios\CMakeFiles\main.dir\build.make AEDS/Exercicios/CMakeFiles/main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles --progress-num=33,34 "Built target main"
+.PHONY : AEDS/Exercicios/CMakeFiles/main.dir/all
+
+# Build rule for subdir invocation for target.
+AEDS/Exercicios/CMakeFiles/main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 AEDS/Exercicios/CMakeFiles/main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles 0
+.PHONY : AEDS/Exercicios/CMakeFiles/main.dir/rule
+
+# Convenience name for target.
+main: AEDS/Exercicios/CMakeFiles/main.dir/rule
+.PHONY : main
+
+# clean rule for target.
+AEDS/Exercicios/CMakeFiles/main.dir/clean:
+	$(MAKE) $(MAKESILENT) -f AEDS\Exercicios\CMakeFiles\main.dir\build.make AEDS/Exercicios/CMakeFiles/main.dir/clean
+.PHONY : AEDS/Exercicios/CMakeFiles/main.dir/clean
+
+#=============================================================================
+# Target rules for target AEDS/Exercicios/CMakeFiles/conta.c.dir
+
+# All Build rule for target.
+AEDS/Exercicios/CMakeFiles/conta.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f AEDS\Exercicios\CMakeFiles\conta.c.dir\build.make AEDS/Exercicios/CMakeFiles/conta.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f AEDS\Exercicios\CMakeFiles\conta.c.dir\build.make AEDS/Exercicios/CMakeFiles/conta.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles --progress-num= "Built target conta.c"
+.PHONY : AEDS/Exercicios/CMakeFiles/conta.c.dir/all
+
+# Build rule for subdir invocation for target.
+AEDS/Exercicios/CMakeFiles/conta.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 AEDS/Exercicios/CMakeFiles/conta.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles 0
+.PHONY : AEDS/Exercicios/CMakeFiles/conta.c.dir/rule
+
+# Convenience name for target.
+conta.c: AEDS/Exercicios/CMakeFiles/conta.c.dir/rule
+.PHONY : conta.c
+
+# clean rule for target.
+AEDS/Exercicios/CMakeFiles/conta.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f AEDS\Exercicios\CMakeFiles\conta.c.dir\build.make AEDS/Exercicios/CMakeFiles/conta.c.dir/clean
+.PHONY : AEDS/Exercicios/CMakeFiles/conta.c.dir/clean
+
+#=============================================================================
+# Target rules for target AEDS/Exercicios/CMakeFiles/endereco.c.dir
+
+# All Build rule for target.
+AEDS/Exercicios/CMakeFiles/endereco.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f AEDS\Exercicios\CMakeFiles\endereco.c.dir\build.make AEDS/Exercicios/CMakeFiles/endereco.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f AEDS\Exercicios\CMakeFiles\endereco.c.dir\build.make AEDS/Exercicios/CMakeFiles/endereco.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles --progress-num= "Built target endereco.c"
+.PHONY : AEDS/Exercicios/CMakeFiles/endereco.c.dir/all
+
+# Build rule for subdir invocation for target.
+AEDS/Exercicios/CMakeFiles/endereco.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 AEDS/Exercicios/CMakeFiles/endereco.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles 0
+.PHONY : AEDS/Exercicios/CMakeFiles/endereco.c.dir/rule
+
+# Convenience name for target.
+endereco.c: AEDS/Exercicios/CMakeFiles/endereco.c.dir/rule
+.PHONY : endereco.c
+
+# clean rule for target.
+AEDS/Exercicios/CMakeFiles/endereco.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f AEDS\Exercicios\CMakeFiles\endereco.c.dir\build.make AEDS/Exercicios/CMakeFiles/endereco.c.dir/clean
+.PHONY : AEDS/Exercicios/CMakeFiles/endereco.c.dir/clean
+
+#=============================================================================
+# Target rules for target AEDS/Exercicios/CMakeFiles/cliente.c.dir
+
+# All Build rule for target.
+AEDS/Exercicios/CMakeFiles/cliente.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f AEDS\Exercicios\CMakeFiles\cliente.c.dir\build.make AEDS/Exercicios/CMakeFiles/cliente.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f AEDS\Exercicios\CMakeFiles\cliente.c.dir\build.make AEDS/Exercicios/CMakeFiles/cliente.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles --progress-num= "Built target cliente.c"
+.PHONY : AEDS/Exercicios/CMakeFiles/cliente.c.dir/all
+
+# Build rule for subdir invocation for target.
+AEDS/Exercicios/CMakeFiles/cliente.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 AEDS/Exercicios/CMakeFiles/cliente.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles 0
+.PHONY : AEDS/Exercicios/CMakeFiles/cliente.c.dir/rule
+
+# Convenience name for target.
+cliente.c: AEDS/Exercicios/CMakeFiles/cliente.c.dir/rule
+.PHONY : cliente.c
+
+# clean rule for target.
+AEDS/Exercicios/CMakeFiles/cliente.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f AEDS\Exercicios\CMakeFiles\cliente.c.dir\build.make AEDS/Exercicios/CMakeFiles/cliente.c.dir/clean
+.PHONY : AEDS/Exercicios/CMakeFiles/cliente.c.dir/clean
+
+#=============================================================================
 # Target rules for target Listas/runcodes/CMakeFiles/teste.dir
 
 # All Build rule for target.
 Listas/runcodes/CMakeFiles/teste.dir/all:
 	$(MAKE) $(MAKESILENT) -f Listas\runcodes\CMakeFiles\teste.dir\build.make Listas/runcodes/CMakeFiles/teste.dir/depend
 	$(MAKE) $(MAKESILENT) -f Listas\runcodes\CMakeFiles\teste.dir\build.make Listas/runcodes/CMakeFiles/teste.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles --progress-num=37,38 "Built target teste"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles --progress-num=39,40 "Built target teste"
 .PHONY : Listas/runcodes/CMakeFiles/teste.dir/all
 
 # Build rule for subdir invocation for target.
@@ -205,7 +333,7 @@ Listas/runcodes/CMakeFiles/teste.dir/clean:
 Listas/runcodes/CMakeFiles/quest1.dir/all:
 	$(MAKE) $(MAKESILENT) -f Listas\runcodes\CMakeFiles\quest1.dir\build.make Listas/runcodes/CMakeFiles/quest1.dir/depend
 	$(MAKE) $(MAKESILENT) -f Listas\runcodes\CMakeFiles\quest1.dir\build.make Listas/runcodes/CMakeFiles/quest1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles --progress-num=33,34 "Built target quest1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target quest1"
 .PHONY : Listas/runcodes/CMakeFiles/quest1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -231,7 +359,7 @@ Listas/runcodes/CMakeFiles/quest1.dir/clean:
 Listas/runcodes/CMakeFiles/quest2.dir/all:
 	$(MAKE) $(MAKESILENT) -f Listas\runcodes\CMakeFiles\quest2.dir\build.make Listas/runcodes/CMakeFiles/quest2.dir/depend
 	$(MAKE) $(MAKESILENT) -f Listas\runcodes\CMakeFiles\quest2.dir\build.make Listas/runcodes/CMakeFiles/quest2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target quest2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\vitao\Documents\GitHub\UFV\UFV---C\cmake-build-debug\CMakeFiles --progress-num=37,38 "Built target quest2"
 .PHONY : Listas/runcodes/CMakeFiles/quest2.dir/all
 
 # Build rule for subdir invocation for target.

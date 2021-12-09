@@ -31,6 +31,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/JetBrains/CLion 2021.2.2/bin/cmake/win/share/cmake-3.20/Modules/Platform/Windows.cmake"
   "C:/Program Files/JetBrains/CLion 2021.2.2/bin/cmake/win/share/cmake-3.20/Modules/Platform/WindowsPaths.cmake"
   "C:/Program Files/JetBrains/CLion 2021.2.2/bin/cmake/win/share/cmake-3.20/Modules/ProcessorCount.cmake"
+  "../AEDS/Exercicios/CMakeLists.txt"
   "../CMakeLists.txt"
   "../Listas/Lista12/CMakeLists.txt"
   "../Listas/Lista13/CMakeLists.txt"
@@ -51,6 +52,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "AEDS/Exercicios/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Listas/runcodes/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Listas/Lista14/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Listas/Lista13/CMakeFiles/CMakeDirectoryInformation.cmake"
@@ -59,6 +61,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "AEDS/Exercicios/CMakeFiles/main.dir/DependInfo.cmake"
+  "AEDS/Exercicios/CMakeFiles/conta.c.dir/DependInfo.cmake"
+  "AEDS/Exercicios/CMakeFiles/endereco.c.dir/DependInfo.cmake"
+  "AEDS/Exercicios/CMakeFiles/cliente.c.dir/DependInfo.cmake"
   "Listas/runcodes/CMakeFiles/teste.dir/DependInfo.cmake"
   "Listas/runcodes/CMakeFiles/quest1.dir/DependInfo.cmake"
   "Listas/runcodes/CMakeFiles/quest2.dir/DependInfo.cmake"

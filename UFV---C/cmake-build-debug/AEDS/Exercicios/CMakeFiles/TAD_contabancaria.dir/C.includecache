@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/vitao/Documents/GitHub/UFV/UFV---C/AEDS/Exercicios/TAD_contabancaria.c
+conta.c
+C:/Users/vitao/Documents/GitHub/UFV/UFV---C/AEDS/Exercicios/conta.c
+stdio.h
+-
+
+C:/Users/vitao/Documents/GitHub/UFV/UFV---C/AEDS/Exercicios/conta.c
+stdlib.h
+-
+string.h
+-
+conta.h
+C:/Users/vitao/Documents/GitHub/UFV/UFV---C/AEDS/Exercicios/conta.h
+
+C:/Users/vitao/Documents/GitHub/UFV/UFV---C/AEDS/Exercicios/conta.h
+stdlib.h
+-
+stdlib.h
+-
+string.h
+-
+

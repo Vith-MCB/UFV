@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Exercicios"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\AEDS\;CMake Files\AEDS\Exercicios\;CMake Files\Listas\;CMake Files\Listas\Lista12\;CMake Files\Listas\Lista13\;CMake Files\Listas\Lista14\;CMake Files\Listas\runcodes\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios/main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios/main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="conta.c">
+				<Option output="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios/conta.c.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios/Makefile&quot;  VERBOSE=1 conta.c"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="conta.c/fast">
+				<Option output="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios/conta.c.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios/Makefile&quot;  VERBOSE=1 conta.c/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="endereco.c">
+				<Option output="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios/endereco.c.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios/Makefile&quot;  VERBOSE=1 endereco.c"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="endereco.c/fast">
+				<Option output="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios/endereco.c.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios/Makefile&quot;  VERBOSE=1 endereco.c/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cliente.c">
+				<Option output="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios/cliente.c.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios/Makefile&quot;  VERBOSE=1 cliente.c"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cliente.c/fast">
+				<Option output="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios/cliente.c.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios/Makefile&quot;  VERBOSE=1 cliente.c/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/vitao/Documents/GitHub/UFV/UFV---C/cmake-build-debug/AEDS/Exercicios/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/AEDS/Exercicios/cliente.h">
+			<Option target="cliente.c"/>
+		</Unit>
+		<Unit filename="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/AEDS/Exercicios/conta.h">
+			<Option target="conta.c"/>
+		</Unit>
+		<Unit filename="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/AEDS/Exercicios/endereco.h">
+			<Option target="endereco.c"/>
+		</Unit>
+		<Unit filename="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/AEDS/Exercicios/main.c">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/AEDS/Exercicios/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\AEDS\Exercicios\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/Listas/Lista12/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Listas\Lista12\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/Listas/Lista13/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Listas\Lista13\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/Listas/Lista14/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Listas\Lista14\"/>
+		</Unit>
+		<Unit filename="C:/Users/vitao/Documents/GitHub/UFV/UFV---C/Listas/runcodes/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Listas\runcodes\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
